@@ -15,11 +15,12 @@ class ViewController: UIViewController {
     @IBOutlet weak var dollarLabel: UILabel!
     @IBOutlet weak var tipLabel: UILabel!
     @IBOutlet weak var totalLabel: UILabel!
+    @IBOutlet weak var tipTitle: UILabel!
     @IBOutlet weak var tipControl: UISegmentedControl!
     @IBOutlet weak var tipDivider: UIView!
+    @IBOutlet weak var totalText: UILabel!
     @IBOutlet weak var tipIcon: UIImageView!
-    @IBOutlet weak var tipLabelBG: UIView!
-    @IBOutlet weak var totalLabelBG: UIView!
+    @IBOutlet weak var tipText: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,8 +29,11 @@ class ViewController: UIViewController {
         self.billField.alpha = 0
         self.dollarLabel.alpha = 0
         self.tipIcon.alpha = 0
-        self.tipLabelBG.alpha = 0
-        self.totalLabelBG.alpha = 0
+        self.tipText.alpha = 0
+        self.totalText.alpha = 0
+        self.tipLabel.alpha = 0
+        self.totalLabel.alpha = 0
+        self.tipDivider.alpha = 0
         tipLabel.text = "$0.00"
         totalLabel.text = "0.00"
     }
@@ -41,7 +45,7 @@ class ViewController: UIViewController {
     
     override func viewDidAppear(animated:Bool){
         super.viewDidAppear(animated)
-        UIView.animateWithDuration(3.0, animations: {
+        UIView.animateWithDuration(2.0, animations: {
             self.billField.alpha = 1.0
             self.dollarLabel.alpha = 1.0
             self.tipIcon.alpha = 1.0
@@ -51,12 +55,32 @@ class ViewController: UIViewController {
     
     @IBAction func onEditingChange(sender: AnyObject) {
         
-        UIView.animateWithDuration(4.0, animations: {
-            self.tipLabelBG.alpha = 0.4
-            self.totalLabelBG.alpha = 0.4
+        UIView.animateWithDuration(3.0, animations: {
+            self.tipText.alpha = 1.0
+            self.totalText.alpha = 1.0
+            self.tipLabel.alpha = 1.0
+            self.totalLabel.alpha = 1.0
+            self.tipDivider.alpha = 1.0
+        })
+        
+        UIView.animateWithDuration(1.0, animations: {
+            var newCenter = self.tipControl.center
+            newCenter.y = 115
+            self.tipControl.center = newCenter
         })
 
-        
+        UIView.animateWithDuration(1.0, animations: {
+            var newCenter = self.dollarLabel.center
+            newCenter.y = 165
+            self.dollarLabel.center = newCenter
+        })
+
+        UIView.animateWithDuration(1.0, animations: {
+            var newCenter = self.billField.center
+            newCenter.y = 165
+            self.billField.center = newCenter
+        })
+
         var tipPercentages = [0.18, 0.2, 0.22]
         let tipPercentage = tipPercentages[tipControl.selectedSegmentIndex]
         
