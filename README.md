@@ -13,3 +13,5 @@ Completed user stories:
 - Optional: On editing of bill amount, a green highlight fades in over tip amount and total amount
 
 Walkthrough of all user stories:
+
+![Alt text](http://Demo.gif)
