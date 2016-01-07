@@ -14,9 +14,6 @@
 		89A051621C3B3BA500A3B962 /* tipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A051611C3B3BA500A3B962 /* tipsTests.swift */; };
 		89A0516D1C3B3BA500A3B962 /* tipsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A0516C1C3B3BA500A3B962 /* tipsUITests.swift */; };
 		89A4F36D1C3DCA13007E7EE0 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89A4F36C1C3DCA13007E7EE0 /* Launch Screen.storyboard */; };
-		89A4F36F1C3DCEB3007E7EE0 /* RemachineScript_Personal_Use.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 89A4F36E1C3DCEB3007E7EE0 /* RemachineScript_Personal_Use.ttf */; };
-		89A4F3701C3DCEB3007E7EE0 /* RemachineScript_Personal_Use.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 89A4F36E1C3DCEB3007E7EE0 /* RemachineScript_Personal_Use.ttf */; };
-		89A4F3711C3DCEB3007E7EE0 /* RemachineScript_Personal_Use.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 89A4F36E1C3DCEB3007E7EE0 /* RemachineScript_Personal_Use.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +47,6 @@
 		89A0516C1C3B3BA500A3B962 /* tipsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsUITests.swift; sourceTree = "<group>"; };
 		89A0516E1C3B3BA500A3B962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89A4F36C1C3DCA13007E7EE0 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "../Launch Screen.storyboard"; sourceTree = "<group>"; };
-		89A4F36E1C3DCEB3007E7EE0 /* RemachineScript_Personal_Use.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = RemachineScript_Personal_Use.ttf; path = ../../Downloads/remachine_script/RemachineScript_Personal_Use.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +81,6 @@
 				89A051601C3B3BA500A3B962 /* tipsTests */,
 				89A0516B1C3B3BA500A3B962 /* tipsUITests */,
 				89A0514A1C3B3BA500A3B962 /* Products */,
-				89A4F36E1C3DCEB3007E7EE0 /* RemachineScript_Personal_Use.ttf */,
 			);
 			sourceTree = "<group>";
 		};
@@ -235,7 +230,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89A4F36F1C3DCEB3007E7EE0 /* RemachineScript_Personal_Use.ttf in Resources */,
 				89A4F36D1C3DCA13007E7EE0 /* Launch Screen.storyboard in Resources */,
 				89A051541C3B3BA500A3B962 /* Assets.xcassets in Resources */,
 				89A051521C3B3BA500A3B962 /* Main.storyboard in Resources */,
@@ -246,7 +240,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89A4F3701C3DCEB3007E7EE0 /* RemachineScript_Personal_Use.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,7 +247,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89A4F3711C3DCEB3007E7EE0 /* RemachineScript_Personal_Use.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
