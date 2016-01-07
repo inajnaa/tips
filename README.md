@@ -14,4 +14,4 @@ Completed user stories:
 
 Walkthrough of all user stories:
 
-![Alt text](http://Demo.gif)
+![Demmo](https://github.com/inajnaa/tips/blob/master/Demo.gif)
