@@ -11,6 +11,7 @@ Completed user stories:
 - Optional: App icon and splash screen
 - Optional: Top logo, tip control, and bill amount field fades in on app load
 - Optional: As user starts to input bill amount, tip control and bill field animate up as tip amount and total amount fade in
+- Optional: Added custom font
 
 Walkthrough of all user stories:
 
