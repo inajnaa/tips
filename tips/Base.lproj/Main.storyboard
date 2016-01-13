@@ -14,21 +14,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tip" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Gcu-yU-BWj">
-                                <rect key="frame" x="25" y="209" width="25" height="21"/>
+                                <rect key="frame" x="25" y="224" width="25" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="l3W-Tw-kZt">
-                                <rect key="frame" x="25" y="291" width="94" height="22"/>
+                                <rect key="frame" x="25" y="306" width="94" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" id="24Y-Gu-1jI">
-                                <rect key="frame" x="25" y="257" width="275" height="10"/>
+                                <rect key="frame" x="25" y="272" width="275" height="10"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" id="oeo-9B-5a4">
@@ -37,53 +37,119 @@
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" red="0.15686274509803921" green="0.32941176470588235" blue="0.0039215686274509803" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.1803921568627451" green="0.70588235294117652" blue="0.094117647058823528" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="fV9-mn-9ZV">
-                                <rect key="frame" x="25" y="187" width="275" height="29"/>
+                                <rect key="frame" x="25" y="183" width="275" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="18%"/>
                                     <segment title="20%"/>
                                     <segment title="22%"/>
                                 </segments>
+                                <color key="tintColor" red="0.1803921568627451" green="0.70588235294117652" blue="0.094117647058823528" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <action selector="onEditingChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="u4J-Hn-fXh"/>
                                 </connections>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$10.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="n4v-cH-a6b">
-                                <rect key="frame" x="108" y="209" width="187" height="21"/>
+                                <rect key="frame" x="108" y="224" width="187" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$100.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dtn-ce-1vc">
-                                <rect key="frame" x="114" y="291" width="181" height="21"/>
+                                <rect key="frame" x="114" y="306" width="181" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3m6-9Y-Cil">
-                                <rect key="frame" x="25" y="232" width="30" height="55"/>
+                                <rect key="frame" x="27" y="242" width="30" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="46"/>
-                                <color key="textColor" red="0.19607843137254902" green="0.396078431372549" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.14117647058823529" green="0.53333333333333333" blue="0.074509803921568626" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" id="wC1-ta-xqE">
-                                <rect key="frame" x="63" y="238" width="236" height="49"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Bill Amount" minimumFontSize="17" id="wC1-ta-xqE">
+                                <rect key="frame" x="65" y="248" width="149" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
                                 <connections>
                                     <action selector="onEditingChange:" destination="BYZ-38-t0r" eventType="editingChanged" id="Dm3-dz-emb"/>
+                                    <action selector="onTapPrice:" destination="BYZ-38-t0r" eventType="touchDown" id="VOj-12-oFq"/>
                                 </connections>
                             </textField>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Image" id="M41-bX-rOu">
                                 <rect key="frame" x="129" y="20" width="67" height="72"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
+                            <view contentMode="scaleToFill" id="BOx-r9-efd">
+                                <rect key="frame" x="0.0" y="356" width="320" height="212"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Split between:" textAlignment="natural" minimumFontSize="17" id="JAZ-fc-iEm">
+                                        <rect key="frame" x="14" y="14" width="120" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="2 people" textAlignment="natural" minimumFontSize="17" id="rMT-iT-Kyd">
+                                        <rect key="frame" x="14" y="59" width="97" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="3 people" textAlignment="natural" minimumFontSize="17" id="6Yn-IN-5LI">
+                                        <rect key="frame" x="14" y="106" width="97" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="4 people" textAlignment="natural" minimumFontSize="17" id="Wc6-Ut-ppp">
+                                        <rect key="frame" x="14" y="152" width="97" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="$25.00" textAlignment="right" minimumFontSize="17" id="Vwt-kg-HeA">
+                                        <rect key="frame" x="204" y="59" width="97" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="$25.00" textAlignment="right" minimumFontSize="17" id="9qy-6k-bLI">
+                                        <rect key="frame" x="204" y="106" width="97" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="$25.00" textAlignment="right" minimumFontSize="17" id="bdb-Ti-vVW">
+                                        <rect key="frame" x="204" y="152" width="97" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" red="0.20000000000000001" green="0.74117647058823533" blue="0.11764705882352941" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.080574479998107462" green="0.5" blue="0.10887068482447221" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
@@ -94,6 +160,13 @@
                     <connections>
                         <outlet property="billField" destination="wC1-ta-xqE" id="S6W-pm-Gkp"/>
                         <outlet property="dollarLabel" destination="3m6-9Y-Cil" id="YyC-Ba-W4X"/>
+                        <outlet property="fourLabel" destination="Wc6-Ut-ppp" id="GkU-9H-0zG"/>
+                        <outlet property="splitBG" destination="BOx-r9-efd" id="xSO-Au-0AF"/>
+                        <outlet property="splitFour" destination="bdb-Ti-vVW" id="BuF-UF-gjz"/>
+                        <outlet property="splitThree" destination="9qy-6k-bLI" id="iw3-D2-2S4"/>
+                        <outlet property="splitTitle" destination="JAZ-fc-iEm" id="6F9-J7-Elj"/>
+                        <outlet property="splitTwo" destination="Vwt-kg-HeA" id="rfp-bq-nl5"/>
+                        <outlet property="threeLabel" destination="6Yn-IN-5LI" id="Oe9-Rq-Vk9"/>
                         <outlet property="tipControl" destination="fV9-mn-9ZV" id="IOu-DY-liH"/>
                         <outlet property="tipDivider" destination="24Y-Gu-1jI" id="wCX-kO-oMV"/>
                         <outlet property="tipIcon" destination="M41-bX-rOu" id="X9z-LV-oEj"/>
@@ -101,6 +174,7 @@
                         <outlet property="tipText" destination="Gcu-yU-BWj" id="b1k-lL-kA1"/>
                         <outlet property="totalLabel" destination="dtn-ce-1vc" id="C6i-D4-mpG"/>
                         <outlet property="totalText" destination="l3W-Tw-kZt" id="YCV-Od-Ae5"/>
+                        <outlet property="twoLabel" destination="rMT-iT-Kyd" id="FLg-In-4gM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
