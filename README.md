@@ -12,6 +12,8 @@ Completed user stories:
 - Optional: Top logo, tip control, and bill amount field fades in on app load
 - Optional: As user starts to input bill amount, tip control and bill field animate up as tip amount and total amount fade in
 - Optional: Added custom font
+- Optional: Updated colors
+- Optional: Added split amount for 2, 3 or 4 way even split
 
 Walkthrough of all user stories:
 
